@@ -1,0 +1,61 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+			
+		},
+		{
+			"path": "pages/plot/plot"
+			
+		},
+		{
+			"path": "pages/rec/rec"
+			
+		},
+		{
+			"path": "pages/learn/learn"
+			
+		},
+		{
+			"path": "pages/indexDetail/indexDetail"
+			
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "见义勇为“云平台”",
+		"navigationBarBackgroundColor":"#DD524D"
+	},
+	"tabBar":{
+		"color":"#808080",
+		"selectedColor":"#DD524D",
+		"backgroundColor":"#ffffff",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/2故事汇_03.gif",
+				"selectedIconPath":"static/1政策云_03.gif",
+				"text":"政策云"
+			},
+			{
+				"pagePath":"pages/plot/plot",
+				"iconPath":"static/5云学习_04%20(2).gif",
+				"selectedIconPath":"static/2故事汇_05.gif",
+				"text":"故事汇"
+			},
+			{
+				"pagePath":"pages/rec/rec",
+				"iconPath":"static/2故事汇_09.gif",
+				"selectedIconPath":"static/4云推荐_03.gif",
+				"text":"云推荐"
+			},
+			{
+				"pagePath":"pages/learn/learn",
+				"iconPath":"static/2故事汇_11.gif",
+				"selectedIconPath":"static/5云学习_03.gif",
+				"text":"云学习"
+			}
+		]
+	}
+}
